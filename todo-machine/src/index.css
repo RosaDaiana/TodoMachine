@@ -1,0 +1,37 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+:root {
+  --light-blue: rgba(128, 171, 252, 1);
+  --light-green: rgba(125, 212, 188, 1);
+  --white: rgba(255, 255, 255, 1);
+  --gray: rgba(196, 196, 196, 1);
+  --dark-gray: rgba(45, 45, 45, 1);
+  --red: rgb(252, 107, 107);
+  --fuente: 'Varela Round', sans-serif;
+  --sm: 14px;
+  --md: 18px;
+  --lg: 24px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--light-blue);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

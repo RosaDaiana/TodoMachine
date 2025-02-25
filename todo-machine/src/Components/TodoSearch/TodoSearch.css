@@ -1,0 +1,21 @@
+.todoSearch {
+    display: flex;
+    width: 400px;
+    margin: 0 auto; 
+    padding: 14px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(45 45 45 / 30%);
+    color: var(--dark-gray);
+    font-size: var(--md);
+}
+
+.todoSearch::placeholder {
+    color: rgb(95, 95, 95);
+    font-family: var(--fuente);
+}
+
+.todoSearch:focus {
+    outline-color: var(--light-blue);
+}

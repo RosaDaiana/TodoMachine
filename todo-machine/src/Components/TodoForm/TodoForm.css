@@ -1,0 +1,80 @@
+form {
+    background-color: var(--white);
+    width: 400px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid var(--light-blue);
+    height: 55px;
+}
+
+.modal-title {
+    font-size: var(--md);
+    font-family: var(--fuente);
+    text-align: center;
+    margin-top: 16px;
+}
+
+.bi-x {
+    color: var(--red);
+    position: absolute;
+    left: 87%;
+    font-size: 40px;
+}
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 60%;
+}
+
+.input-modal {
+    width: 300px; 
+    height: 50px;
+    padding: 12px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(45 45 45 / 30%);
+    font-size: var(--sm);
+    margin: auto;
+    color: var(--dark-gray);
+}
+
+.input-modal::placeholder {
+    color: rgb(95, 95, 95);
+    font-family: var(--fuente);
+}
+
+.input-modal:focus {
+    outline-color: var(--light-blue);
+}
+
+.btn-modal {
+    position: absolute;
+    width: 100px; 
+    padding: 12px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--light-green);
+    color: var(--white);
+    font-size: var(--sm);
+    top: 80%;
+    left: 70%;
+    font-family: var(--fuente);
+    transition: all .2s;
+    box-shadow: 0 6px 0 rgb(90, 161, 141); 
+}
+
+.btn-modal:active {
+    transform: translateY(5px);
+    box-shadow: 0 2px 0 rgb(90, 161, 141);
+}

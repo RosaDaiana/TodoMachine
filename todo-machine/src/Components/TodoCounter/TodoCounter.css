@@ -1,0 +1,7 @@
+.counter-title {
+    margin: 0; 
+    padding: 48px;
+    text-align: center; 
+    color: var(--dark-gray);
+    font-family: var(--fuente);
+  }
